@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav a {
+    margin: 0 5px;
+    padding: 5px 15px;
+    border-radius: 3px 3px 0 0;
+    background-color: #ddaa00;
+    text-decoration: none;
+    color: #ffffff
+}
+
+.nav a:hover, a:focus, a:active {
+    background-color: #ffcc22;
+    color: black;
+}
+
+* {
+    outline: 1px #ccc solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+body, nav, main, article {
+    display: flex;
+}
+
+body, article {
+    flex-direction: column;
+}
